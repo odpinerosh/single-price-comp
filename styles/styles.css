@@ -1,0 +1,110 @@
+main {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 2.5rem;
+}
+
+.container-fluid {
+    width:100%
+    padding-left: unset;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 'join'
+                         'monthly'
+                         'why';
+}
+
+    .div-join {
+        grid-area: join;
+        margin: 2.5rem;
+    }
+
+        .join {
+            color: hsl(179, 62%, 43%);
+            font-weight: 600;
+            font-size: 2rem;
+            
+        }
+
+        .money-back {
+            color: hsl(71, 73%, 54%);
+            font-weight: 600;
+            font-size: 1.5rem;
+        }
+
+        .gain {
+            color: hsl(218, 22%, 67%);
+            font-size: 1.2rem;
+        }
+
+    .monthly {
+        grid-area: monthly;
+        color: #fff;
+        background-color: hsl(179, 62%, 43%);
+    }
+
+        .monthly div {
+            margin: 2rem 1rem;
+        }
+
+            .dollar {
+                font-size: 3rem;
+                font-weight: 800;
+            }
+
+            .per-month {
+                color: hsl(181, 86%, 52%);
+                font-size: 1.5rem;
+                vertical-align: top;
+            }
+
+            .button-sign {
+                display: flex;
+                justify-content: center;
+            }
+
+            .sign-up {
+                width: 95%;
+                height: 4rem;
+                font-size: 1.5rem;
+                border-radius: 5px;
+                border-style: none;
+                background-color: hsl(71, 73%, 54%);
+            }
+
+    .why {
+        grid-area: why;
+        color:#fff;
+        background-color:  hsl(179, 81%, 46%);
+        
+    }
+
+    .box-why {
+        margin: 1.5rem;
+    }
+
+    .box-why ul {
+        line-height: 2rem;
+        list-style: none;
+        margin-top: 1rem;
+    }
+
+    .box-why ul li {
+        margin-left: -2rem;
+        font-size: 1.2rem;
+        color: hsl(189, 30%, 92%);
+    }
+
+
+.box-title {
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.box-text {
+    font-size: 1.5rem;
+}
+
+
