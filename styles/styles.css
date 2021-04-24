@@ -5,7 +5,7 @@ main {
 }
 
 .container-fluid {
-    width:100%
+    width:100%;
     padding-left: unset;
     display: grid;
     grid-template-columns: 100%;
@@ -108,3 +108,11 @@ main {
 }
 
 
+@media screen and (min-width: 768px) { 
+    .container-fluid {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 45% 55%;
+        grid-template-areas: 'join join'
+                             'monthly why';
+    }
+ }
